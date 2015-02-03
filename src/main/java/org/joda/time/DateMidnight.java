@@ -75,7 +75,7 @@ import org.joda.time.format.ISODateTimeFormat;
  * start of a day.
  */
 @Deprecated
-public class DateMidnight
+public final class DateMidnight
         extends BaseDateTime
         implements ReadableDateTime, Serializable {
     
